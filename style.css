@@ -216,17 +216,17 @@ section:nth-child(2) {
 
 .social-links{
   position: absolute;
-  right: 1.2em;
-  top: 25%;
+  middle: 1.2em;
+  top: 85%;
   display: flex;
-  flex-direction: column;
+  flex-direction: box-sizing;
   border: 2px solid #fff;
-  padding: 10px 5px;
-  border-radius: 30px;
+  padding: 5px 5px;
+  border-radius: 60px;
 }
 .social-links a{
-  margin: 0.2em;
-  font-size: 1.4em;
+  margin: 0.7em;
+  font-size: 1.8em;
   transition: transform 0.3s ease;
 }
 .social-links a [name="logo-instagram"]{
